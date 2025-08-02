@@ -1,0 +1,24 @@
+{
+  "description": "Map ^+[ to esc",
+  "manipulators": [
+    {
+      "from": {
+        "key_code": "open_bracket",
+        "modifiers": {
+          "mandatory": [
+            "control"
+          ]
+        }
+      },
+      "to": [
+        {
+          "key_code": "escape"
+        },
+        {
+          "shell_command": "/usr/local/bin/im-select com.apple.keylayout.ABC"
+        }
+      ],
+      "type": "basic"
+    }
+  ]
+}

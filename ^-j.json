@@ -1,0 +1,21 @@
+{
+  "description": "Map ^+j to enter",
+  "manipulators": [
+    {
+      "from": {
+        "key_code": "j",
+        "modifiers": {
+          "mandatory": [
+            "control"
+          ]
+        }
+      },
+      "to": [
+        {
+          "key_code": "return_or_enter"
+        }
+      ],
+      "type": "basic"
+    }
+  ]
+}
