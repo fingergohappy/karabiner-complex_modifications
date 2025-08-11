@@ -60,7 +60,7 @@
               "key_code": "escape"
             },
             {
-              "shell_command": "/opt/homebrew/bin/im-select com.apple.keylayout.ABC"
+              "shell_command": "/usr/local/bin/im-select com.apple.keylayout.ABC"
             }
           ],
           "type": "basic"
